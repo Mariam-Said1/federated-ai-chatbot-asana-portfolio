@@ -1,0 +1,6219 @@
+{
+  "data" : [ {
+    "gid" : "1212833880903429",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T05:20:42.763Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "High",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : "2026-01-20",
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833878043526",
+        "name" : "Phase 1: Discovery & Requirements",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:00:25.751Z",
+    "name" : "Conduct stakeholder interviews with agency leadership",
+    "notes" : "Meet with key stakeholders to understand: \n    Current citizen service pain points \n    AI chatbot use case priorities \n    Compliance and security requirements\n    Success metrics and KPIs \n    Budget constraints and timeline expectations\n",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903429",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903435",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:02:16.225Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833878043526",
+        "name" : "Phase 1: Discovery & Requirements",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:02:17.725Z",
+    "name" : "Define AI chatbot scope and use cases",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903435",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903437",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:02:28.276Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Confidential",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Approved",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833878043526",
+        "name" : "Phase 1: Discovery & Requirements",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:48:09.481Z",
+    "name" : "Review FedRAMP compliance requirements",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903437",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903439",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:02:36.721Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833878043526",
+        "name" : "Phase 1: Discovery & Requirements",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:02:37.977Z",
+    "name" : "Assess current data infrastructure and readiness",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903439",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903441",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:02:48.781Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833878043526",
+        "name" : "Phase 1: Discovery & Requirements",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:02:49.843Z",
+    "name" : "Identify cross-functional team members (legal, security, engineering)",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903441",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903443",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:04:02.941Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : "2026-01-27",
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903414",
+        "name" : "Phase 2: AI Platform Selection & Architecture",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T07:12:41.841Z",
+    "name" : "Evaluate AWS vs Azure AI services for chatbot capabilities",
+    "notes" : "Compare AWS and Azure AI platforms based on:\n    Natural language processing capabilities (AWS Lex vs Azure Bot Service)\n    Integration with existing federal systems\n    FedRAMP authorization status and compliance\n    Cost structure and scalability for expected user volume\n    Support for responsible AI frameworks and monitoring\n    Vendor government experience and support\n\nDeliverable: Platform recommendation memo with cost-benefit analysis",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903443",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903445",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:04:05.627Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903414",
+        "name" : "Phase 2: AI Platform Selection & Architecture",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:04:15.267Z",
+    "name" : "Conduct cost analysis and scalability assessment",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903445",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903447",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:04:16.266Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903414",
+        "name" : "Phase 2: AI Platform Selection & Architecture",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:04:24.655Z",
+    "name" : "Review cloud security and FedRAMP authorization requirements",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903447",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903449",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:04:25.463Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903414",
+        "name" : "Phase 2: AI Platform Selection & Architecture",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:04:35.268Z",
+    "name" : "Design system architecture with AI/ML components",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903449",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903451",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:04:43.856Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903414",
+        "name" : "Phase 2: AI Platform Selection & Architecture",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:04:44.872Z",
+    "name" : "Get technical architecture approval from security team",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903451",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903453",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:05:19.598Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Public",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "In Review",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : "2026-02-10",
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903417",
+        "name" : "Phase 3: Responsible AI Framework",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:49:21.928Z",
+    "name" : "Develop bias testing protocol for chatbot responses",
+    "notes" : "Establish testing framework to identify and mitigate bias in AI responses:\n    Test chatbot across diverse user scenarios and demographics\n    Identify potential discriminatory language or unequal service outcomes\n    Review training data for bias and representation gaps\n    Document bias mitigation strategies and corrective actions\n    Set up ongoing monitoring for bias detection post-launch\n\nAligns with federal responsible AI guidelines and ethical AI deployment standards.",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903453",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903455",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:05:22.054Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903417",
+        "name" : "Phase 3: Responsible AI Framework",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:05:32.687Z",
+    "name" : "Create transparency guidelines for AI decision-making",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903455",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903457",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:05:33.536Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903417",
+        "name" : "Phase 3: Responsible AI Framework",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:05:55.626Z",
+    "name" : "Establish data privacy and security protocols",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903457",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903459",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:05:56.626Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903417",
+        "name" : "Phase 3: Responsible AI Framework",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:06:05.537Z",
+    "name" : "Define human oversight and escalation procedures",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903459",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903461",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:06:06.850Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903417",
+        "name" : "Phase 3: Responsible AI Framework",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:06:16.959Z",
+    "name" : "Document responsible AI principles and ethics framework",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903461",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903463",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:06:50.081Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903420",
+        "name" : "Phase 4: Development & Testing",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:06:51.426Z",
+    "name" : "Train AI model with approved government data",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903463",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903465",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:06:52.367Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903420",
+        "name" : "Phase 4: Development & Testing",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:07:00.856Z",
+    "name" : "Integrate chatbot with existing agency systems",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903465",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903467",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:07:02.219Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903420",
+        "name" : "Phase 4: Development & Testing",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:07:13.640Z",
+    "name" : "Conduct internal UAT with pilot user group",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903467",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903469",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:07:15.033Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Secret",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Not Started",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903420",
+        "name" : "Phase 4: Development & Testing",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:50:00.690Z",
+    "name" : "Perform security penetration testing",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903469",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903471",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:07:24.476Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903420",
+        "name" : "Phase 4: Development & Testing",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:07:32.259Z",
+    "name" : "Iterate based on feedback and fix bugs",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903471",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903473",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:08:00.865Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903423",
+        "name" : "Phase 5: Compliance & ATO (Authority to Operate)",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:08:02.165Z",
+    "name" : "Complete security assessment and documentation",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903473",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903475",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:08:03.370Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Secret",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "In Review",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : "2026-03-15",
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903423",
+        "name" : "Phase 5: Compliance & ATO (Authority to Operate)",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:47:16.485Z",
+    "name" : "Submit ATO package to authorizing official",
+    "notes" : "Prepare and submit Authority to Operate (ATO) documentation package including:\n    System Security Plan (SSP)\n    Risk assessment and mitigation strategies\n    Security control implementation evidence\n    Privacy Impact Assessment (PIA)\n    Continuous monitoring plan\n    Incident response procedures\n\nWork with ISSO (Information System Security Officer) and authorizing official to ensure all FedRAMP requirements are met for production deployment.",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903475",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903477",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:08:14.968Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903423",
+        "name" : "Phase 5: Compliance & ATO (Authority to Operate)",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:08:27.362Z",
+    "name" : "Address security findings and remediation items",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903477",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903479",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:08:28.327Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903423",
+        "name" : "Phase 5: Compliance & ATO (Authority to Operate)",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:08:35.042Z",
+    "name" : "Obtain final ATO approval",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903479",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903481",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:08:36.534Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903423",
+        "name" : "Phase 5: Compliance & ATO (Authority to Operate)",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:08:46.513Z",
+    "name" : "Finalize compliance audit trail and records",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903481",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903483",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:09:50.804Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Confidential",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      },
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : "Blocked",
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : "2026-04-01",
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903426",
+        "name" : "Phase 6: Launch & Continuous Monitoring",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:50:42.879Z",
+    "name" : "Deploy chatbot to production environment",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903483",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903485",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:10:02.713Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903426",
+        "name" : "Phase 6: Launch & Continuous Monitoring",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:10:11.474Z",
+    "name" : "Launch internal communications and training for staff",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903485",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903487",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:10:12.968Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903426",
+        "name" : "Phase 6: Launch & Continuous Monitoring",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:10:21.620Z",
+    "name" : "Monitor performance metrics and user feedback",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903487",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903489",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:10:26.464Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903426",
+        "name" : "Phase 6: Launch & Continuous Monitoring",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:10:35.745Z",
+    "name" : "Conduct post-launch review with stakeholders",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903489",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  }, {
+    "gid" : "1212833880903491",
+    "actual_time_minutes" : null,
+    "assignee" : null,
+    "assignee_status" : "upcoming",
+    "completed" : false,
+    "completed_at" : null,
+    "created_at" : "2026-01-16T06:10:36.877Z",
+    "custom_fields" : [ {
+      "gid" : "1212833878043527",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833878043528",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Low",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043529",
+        "color" : "yellow-orange",
+        "enabled" : true,
+        "name" : "Medium",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833878043530",
+        "color" : "hot-pink",
+        "enabled" : true,
+        "name" : "High",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Priority",
+      "description" : "Track the priority of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903393",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903394",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "On track",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903395",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "At risk",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903396",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Off track",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Status",
+      "description" : "Track the status of each task.",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903493",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903494",
+        "color" : "blue-green",
+        "enabled" : true,
+        "name" : "Public",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903495",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Confidential",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903496",
+        "color" : "orange",
+        "enabled" : true,
+        "name" : "Secret",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Clearance Level",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    }, {
+      "gid" : "1212833880903498",
+      "enabled" : true,
+      "enum_options" : [ {
+        "gid" : "1212833880903499",
+        "color" : "red",
+        "enabled" : true,
+        "name" : "Not Started",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903500",
+        "color" : "yellow",
+        "enabled" : true,
+        "name" : "In Review",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903501",
+        "color" : "yellow-green",
+        "enabled" : true,
+        "name" : "Approved",
+        "resource_type" : "enum_option"
+      }, {
+        "gid" : "1212833880903502",
+        "color" : "cool-gray",
+        "enabled" : true,
+        "name" : "Blocked",
+        "resource_type" : "enum_option"
+      } ],
+      "enum_value" : null,
+      "name" : "Compliance Status",
+      "description" : "",
+      "created_by" : {
+        "gid" : "1212833871597848",
+        "name" : "Mariam S",
+        "resource_type" : "user"
+      },
+      "display_value" : null,
+      "resource_subtype" : "enum",
+      "resource_type" : "custom_field",
+      "is_formula_field" : false,
+      "is_value_read_only" : false,
+      "type" : "enum"
+    } ],
+    "due_at" : null,
+    "due_on" : null,
+    "followers" : [ {
+      "gid" : "1212833871597848",
+      "name" : "Mariam S",
+      "resource_type" : "user"
+    } ],
+    "hearted" : false,
+    "hearts" : [ ],
+    "liked" : false,
+    "likes" : [ ],
+    "memberships" : [ {
+      "project" : {
+        "gid" : "1212833878043522",
+        "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+        "resource_type" : "project"
+      },
+      "section" : {
+        "gid" : "1212833880903426",
+        "name" : "Phase 6: Launch & Continuous Monitoring",
+        "resource_type" : "section"
+      }
+    } ],
+    "modified_at" : "2026-01-16T06:10:44.764Z",
+    "name" : "Plan continuous improvement roadmap",
+    "notes" : "",
+    "num_hearts" : 0,
+    "num_likes" : 0,
+    "parent" : null,
+    "permalink_url" : "https://app.asana.com/1/1212833871924856/project/1212833878043522/task/1212833880903491",
+    "projects" : [ {
+      "gid" : "1212833878043522",
+      "name" : "Federal AI Chatbot Implementation - FedRAMP Compliance",
+      "resource_type" : "project"
+    } ],
+    "resource_type" : "task",
+    "start_at" : null,
+    "start_on" : null,
+    "subtasks" : [ ],
+    "tags" : [ ],
+    "resource_subtype" : "default_task",
+    "workspace" : {
+      "gid" : "1212833871924856",
+      "name" : "My workspace",
+      "resource_type" : "workspace"
+    }
+  } ]
+}
