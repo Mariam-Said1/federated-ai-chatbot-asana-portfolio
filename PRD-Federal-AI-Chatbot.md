@@ -30,7 +30,7 @@ Deploy an AI chatbot using cloud-based natural language processing that provides
 - Zero security incidents or data breaches
 
 
-Background & Context
+**Background & Context**
 
 **Current State**
 - Citizens rely on phone support (avg. 45-min wait times) or navigating 500+ page website
@@ -44,23 +44,23 @@ Background & Context
 - Demonstrates responsible AI adoption in government
 
 **Stakeholders**
-
 - Primary: Citizens seeking benefits information
 - Secondary: Call center staff, agency leadership, IT security team
 - Compliance: Privacy Officer, ISSO, Legal counsel
 
-
+-------------------------------------------------------------------------------------------
 User Stories & Requirements
-Epic 1: Core Chatbot Functionality
-User Story 1.1: As a citizen, I want to ask questions in plain language so I can quickly find information without navigating complex menus.
-Acceptance Criteria:
 
-Chatbot understands natural language input (not just keywords)
-Supports common question variations and misspellings
-Responds within 3 seconds for 95% of queries
-Provides relevant answers with 90%+ accuracy for top 50 questions
+**Epic 1: Core Chatbot Functionality**
+**User Story 1.1:** As a citizen, I want to ask questions in plain language so I can quickly find information without navigating complex menus.
 
-User Story 1.2: As a citizen, I want to check my application status so I can know where my case stands.
+**Acceptance Criteria**:
+- Chatbot understands natural language input (not just keywords)
+- Supports common question variations and misspellings
+- Responds within 3 seconds for 95% of queries
+- Provides relevant answers with 90%+ accuracy for top 50 questions
+
+**User Story 1.2:** As a citizen, I want to check my application status so I can know where my case stands.
 Acceptance Criteria:
 
 User authenticates securely via Login.gov integration
