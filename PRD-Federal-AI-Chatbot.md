@@ -1,4 +1,4 @@
-Product Requirements Document (PRD)
+**Product Requirements Document (PRD)**
 
 
 Federal AI Chatbot for Citizen Services
@@ -23,11 +23,11 @@ Deploy an AI chatbot using cloud-based natural language processing that provides
 
 **Success Metrics:**
 
-- Reduce call center volume by 30% within 6 months
-- Achieve 85% user satisfaction score
-- Handle 10,000+ monthly conversations by month 3
-- Maintain 90%+ accuracy for top 50 citizen queries
-- Zero security incidents or data breaches
+-Reduce call center volume by 30% within 6 months
+-Achieve 85% user satisfaction score
+-Handle 10,000+ monthly conversations by month 3
+-Maintain 90%+ accuracy for top 50 citizen queries
+-Zero security incidents or data breaches
 
 
 Background & Context
