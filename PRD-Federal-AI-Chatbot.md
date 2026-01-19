@@ -23,32 +23,32 @@ Deploy an AI chatbot using cloud-based natural language processing that provides
 
 **Success Metrics:**
 
--Reduce call center volume by 30% within 6 months
--Achieve 85% user satisfaction score
--Handle 10,000+ monthly conversations by month 3
--Maintain 90%+ accuracy for top 50 citizen queries
--Zero security incidents or data breaches
+- Reduce call center volume by 30% within 6 months
+- Achieve 85% user satisfaction score
+- Handle 10,000+ monthly conversations by month 3
+- Maintain 90%+ accuracy for top 50 citizen queries
+- Zero security incidents or data breaches
 
 
 Background & Context
-Current State
 
-Citizens rely on phone support (avg. 45-min wait times) or navigating 500+ page website
-Call center handles 50,000 inquiries/month, 60% are routine questions
-Limited after-hours support availability
-No multilingual support capabilities
+**Current State**
+- Citizens rely on phone support (avg. 45-min wait times) or navigating 500+ page website
+- Call center handles 50,000 inquiries/month, 60% are routine questions
+- Limited after-hours support availability
+- No multilingual support capabilities
 
 Strategic Alignment
 
-Aligns with agency's Digital Service Modernization Initiative
-Supports Executive Order on Improving Customer Experience
-Demonstrates responsible AI adoption in government
+- Aligns with agency's Digital Service Modernization Initiative
+- Supports Executive Order on Improving Customer Experience
+- Demonstrates responsible AI adoption in government
 
 Stakeholders
 
-Primary: Citizens seeking benefits information
-Secondary: Call center staff, agency leadership, IT security team
-Compliance: Privacy Officer, ISSO, Legal counsel
+- Primary: Citizens seeking benefits information
+- Secondary: Call center staff, agency leadership, IT security team
+- Compliance: Privacy Officer, ISSO, Legal counsel
 
 
 User Stories & Requirements
