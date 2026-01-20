@@ -23,7 +23,8 @@ This project simulates managing the implementation of an AI chatbot for a federa
 
 --------------------------------------------------------------------------------------------------------------------
 
-My Approach
+**My Approach**
+
 I structured this project into 6 key phases using Asana's advanced project management features to demonstrate realistic GovTech product delivery:
 
 **Phase 1: Discovery & Requirements**
