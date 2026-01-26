@@ -171,4 +171,4 @@ This project demonstrates readiness to lead AI product initiatives in regulated,
 
 -------------------------------------------------------------------------------------------------------------------
 
-_This is a portfolio project demonstrating Asana project management expertise and GovTech/AI product knowledge. It represents realistic work structure but is not associated with any actual government agency._
+_Please Note: This is a portfolio project showcasing Asana project management expertise and GovTech/AI product knowledge. It represents realistic work structure, but is not associated with any actual government agency._
